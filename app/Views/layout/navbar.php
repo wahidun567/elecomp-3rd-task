@@ -13,7 +13,7 @@
           <a class="waw btn btn-outline-light px-4 bg-gradient" href="/pages/rava">Laporan</a>
         </li>
         <li class="ml-4">
-          <a class="waw btn btn-outline-light px-4 bg-gradient" href="/pages/hierarki">Hierarki</a>
+          <a class="waw btn btn-outline-light px-4 bg-gradient" href="/pages/hierarchi">Hierarki</a>
         </li>
       </ul>
       <form class="d-flex">
