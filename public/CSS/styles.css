@@ -1,0 +1,49 @@
+.table > thead > tr > * {
+  vertical-align: middle;
+  text-align: center;
+}
+.table > tbody > tr > * {
+  vertical-align: middle;
+  text-align: center;
+}
+.navbar {
+  position: relative;
+}
+.waw {
+  transition: 0.8s;
+  font-weight: 450;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+/* ______________________________HIERARCHI______________________ */
+.hierarchi-name {
+  width: 240px;
+  border: 1px solid wheat;
+  padding: 8px;
+  margin: 7px 5px;
+  height: 45px;
+  flex-direction: column;
+}
+.baris-1 {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.baris-next {
+  display: flex;
+}
+.garis-hr {
+    width: 10px;
+    height: 1px;
+    margin-top: 29px;
+    border: 1px black solid;
+}
+.garis-vr {
+    border: 1px black solid;
+    margin: 29px 0px 28px 0px;
+    width: 1px;
+}
+.col {
+  margin: 0;
+  padding: 0;
+}
