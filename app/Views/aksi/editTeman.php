@@ -3,7 +3,7 @@
 <h2 class="bg-warning bg-gradient my-3">&nbsp Form Ubah Data Teman</h2>
 <form action="/pages/update/<?= $teman['id_teman']; ?>" method="post">
     <?= csrf_field(); ?>
-    <?= old(''); ?>
+   <input type="hidden" value="<?= $teman['id_teman']; ?>" name= "id_teman">
     <div class="row mb-3">
         <label for="namaTeman" class="col-sm-2 col-form-label">Nama Teman</label>
         <div class="col-sm-10">
