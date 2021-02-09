@@ -99,7 +99,7 @@ class Pages extends BaseController
         $data = [
             'title' => 'Form Ubah Data',
             'validation' => \config\Services::validation(),
-            'teman' => $this->pagesModel->find($id_teman),
+            'teman' => $this->pagesModel->where('id_teman',$id_teman)->first(),
             'kenalan' => $this->pagesModel->findAll()
         ];
         return view('aksi/editTeman', $data);
@@ -134,7 +134,7 @@ class Pages extends BaseController
                 ]
             ]
         ])) {
-            return redirect()->to('/pages/edit/' . $this->pagesModel->find($id_teman))->withInput();
+            return redirect()->to('/pages/edit/' . $this->request->getVar('id_teman'))->withInput();
         }
         $this->pagesModel->save([
             'id_teman' => $id_teman,
